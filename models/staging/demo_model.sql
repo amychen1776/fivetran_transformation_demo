@@ -1,0 +1,1 @@
+select * from {{ source('demo_gsheet_google_sheet', 'demo_gsheet') }}
