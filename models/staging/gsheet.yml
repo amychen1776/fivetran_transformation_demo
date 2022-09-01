@@ -2,5 +2,9 @@ version: 2
 
 sources:
   - name: demo_gsheet_google_sheet
+    loader: fivetran
+    database: raw
+    schema: google_sheets
+    
     tables:
       - name: demo_gsheet
