@@ -1,7 +1,7 @@
 version: 2
 
 sources:
-  - name: demo_gsheet_google_sheet
+  - name: google_sheets_google_sheets
     loader: fivetran
     database: raw
     schema: google_sheets
