@@ -8,3 +8,5 @@ sources:
     
     tables:
       - name: demo_gsheet
+      - name: julia_gsheet
+    
